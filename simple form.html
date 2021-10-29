@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            margin: 20px;
+            padding: 20px;
+        }
+        h3{
+            margin-bottom: 5px;
+            font-size: 25px;
+        }
+        .option{
+            margin: 0;
+        }
+        .option h4{
+            margin: 0px;
+        }
+        .Vegetables-div{
+            margin: 0;
+        }
+        .Vegetables-div h4{
+            margin: 0;
+        }
+        .gen-div{
+            margin: 0;
+        }
+        .gen-div h4{
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="Questionnaire">
+        
+        <div class="nmae">
+            <h3 style="color: red;">Questionnaire</h3>
+            Name:<input type="text">
+        </div>
+        <br>
+        <div class="option">
+            <h4>Fruits</h4>
+            <label for="Fruits">Which fruits do you like?:</label>
+            <br>
+            <select id="Fruits">
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+            <option value="d">d</option>
+            </select>
+        </div>
+        <br>
+        <div class="Vegetables-div">
+            <h4>Vegetables</h4>
+            <label for="Vegetables">Which Vegetables do you like?:
+            </label>
+            <br>
+            <select name="vag" id="Vegetables" multiple size="4">
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+            </select>
+        </div>
+        <br>
+        
+        <div class="gen-div">
+            <h4>Gender</h4>
+            <input type="checkbox" name="gen" id="Male">
+            <label for="Male">Male</label><br>
+            <input type="checkbox" id="Female" name="gen">
+            <label for="Female">Female</label><br>
+            <input type="checkbox" name="gen" id="Other">
+            <label for="Other">other</label>
+        </div>
+        <br>
+        <div class="gen-div">
+            <h4>Gender</h4>
+            <input type="checkbox" name="gen" id="in" value="M">
+            <label for="in">india</label>
+
+            <input type="checkbox" id="us" name="gen" value="M1">
+            <label for="us">America</label>
+
+            <input type="checkbox" name="gen" id="ru" value="M2">
+            <label for="ru">Russia</label>
+
+            <input type="checkbox" name="gen" id="ch" value="M3">
+            <label for="ch">China</label>
+        </div>
+        <br>
+        <h4>What you do think of this wweb site?</h4>
+        <textarea name="box" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button type="submit">Cancel</button>
+        <button type="submit">Send</button>
+
+    </div>
+
+</body>
+</html>
